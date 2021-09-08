@@ -220,7 +220,7 @@ void playerTurn(Pokemon & p, Pokemon & e) // Friend function
 {
     std::cout << "Player's Turn! \n\n";
 
-    std::cout << "The player's " << p.getName() << " attacked the opponent's " << e.getName() << "- \n";
+    std::cout << "The player's " << p.getName() << " attacked the opponent's " << e.getName() << "! \n";
 
     calculateDamage(p, e);
 
